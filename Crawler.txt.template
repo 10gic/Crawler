@@ -1,0 +1,19 @@
+###############################################
+# 配置文件模板，重命名为Crawler.txt，放入Crawler.exe同一目录即可。
+
+
+UserAgent larbin_2.6.3
+
+
+# limitDomainLevel用来限制域名。
+# 0代表完全不限制，爬取所有域名下网址。
+# 1代表限制比较宽，爬取相近域名下网址（爬取www.baidu.com时，也会爬取news.baidu.com等等下面网页）。
+# 2代表限制最严，只爬取本个域名下网址（默认值）。
+limitDomainLevel 1
+
+
+# 限制爬取文件的后缀（forbiddenExtensions开始，end结束）。
+forbiddenExtensions
+.jpg .gif
+.png
+end

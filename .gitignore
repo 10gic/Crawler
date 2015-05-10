@@ -1,0 +1,7 @@
+
+Crawler.sdf
+Crawler.*.suo
+Crawler.vcxproj.user
+
+/Debug/
+/Release/

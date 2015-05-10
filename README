@@ -1,0 +1,30 @@
+This simple web crawler (wrtten in C++, only works in Windows) is ported from
+another open source crawler Larbin.
+Larbin Homepage: http://larbin.sourceforge.net/index-eng.html
+
+However, Larbin only works under Linux-like system.
+
+The main work in this project is migrating "poll" system call in Linux to
+Windows I/O Completion Ports (IOCP).
+
+
+Usage:
+Crawler -u url
+
+
+LICENSE:
+GNU GPL 2.0
+http://www.gnu.org/licenses/gpl-2.0.html
+
+
+Notes:
+1: There are many comments written with chinese in source code, file encoding is
+GB18030 (not UTF-8).
+
+2: Regular expressions in C++ Technical Report 1
+(http://en.wikipedia.org/wiki/C%2B%2B_Technical_Report_1) is used in this
+project, please make sure your compiler support it (MS compiler support TR1
+after VS2008 SP1).
+
+3: This project is finished during my the graduate life, I may no longer be
+developing this software.

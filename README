@@ -1,4 +1,4 @@
-This simple web crawler (wrtten in C++, only works in Windows) is ported from
+This simple web crawler (written in C++, only works in Windows) is ported from
 another open source crawler Larbin.
 Larbin Homepage: http://larbin.sourceforge.net/index-eng.html
 

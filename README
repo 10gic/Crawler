@@ -26,5 +26,5 @@ GB18030 (not UTF-8).
 project, please make sure your compiler support it (MS compiler support TR1
 after VS2008 SP1).
 
-3: This project is finished during my the graduate life, I may no longer be
+3: This project is finished during my graduate school, I may no longer be
 developing this software.
